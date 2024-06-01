@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Order</title>
+    <style>
+nav{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.607);
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.list{
+    display: flex;
+    list-style: none;
+    margin-left: 500px;
+}
+.hsoc{
+    padding: 40px 20px;
+    color: white;
+}
+.img2{
+    opacity: 0.8;
+}
+span#text{
+            position: relative;
+            top: -50rem;
+            left: 5rem;
+            color: white;
+            font-size:xx-large;
+        }
+        h2{
+            text-align: center;
+        }
+        div.box1{
+            text-align: center;
+            border: 3px solid black;
+            /* width: 350px; */
+            width: 25rem;
+            border-radius: 13px;
+            background-color:azure ;
+            padding: 20px;
+            
+        }
+        div.box2{
+            text-align: center;
+            border: 3px solid black;
+            /* width: 250px; */
+            width: 15rem;
+            border-radius:13px;
+            background-color:azure ;
+            padding: 20px;
+        }
+        div.box3{
+            text-align: center;
+            border: 3px solid black;
+            /* width: 350px; */
+            width: 25rem;
+            border-radius: 13px;
+            background-color:azure;
+            padding: 20px;
+            
+        }
+        .mhsp{
+            display: flex;
+            
+            justify-content: space-around;
+        }
+        .images{
+            margin: 30px;
+        }
+        h1{
+            text-align: center;
+            font-family: cursive;
+            font-size: 50px;
+        }
+        a{
+            text-decoration: none;
+        }
+        a :hover{
+            font-size: larger;
+        }
+       .data{
+        text-align: center;
+       }
+       h3{
+        position: relative;
+        left: -5%;
+       }
+       .footer{
+        background-color: black;
+        color: white;
+        height: 2rem;
+        text-align: center;
+       }
+
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <nav class="container 1">
+        <div class="logo" >
+            <img src="./img/food logo.jpg" alt="logo" width="100rem" height="120rem">
+        </div>
+        <div class="list">
+            <a href="#"><li class="hsoc">Home</li></a>
+            <a href="#"><li class="hsoc">Services</li></a>
+            <a href="#"><li class="hsoc">Our clients</li></a>
+            <a href="#"><li class="hsoc">Contact Us</li></a>
+        </div>
+    </nav>
+    <main >
+        
+        <div class="img2">
+            <img src="./img/background pizza.jpg" alt="" width="100%" height="700rem">
+        </div>
+        <div>
+            <span id="text">LOVES HEALTHY FOOD</span>
+        </div>
+        <div>
+            <h1>Our Services</h1>
+        </div>
+        <div class="container" style="display: flex;justify-content: space-around;">
+        <div class="box1" >
+           <div >
+            <img src="./img/pizza3.jpeg" alt="" width="100%">
+           </div>
+           <div>
+            <h2>Food Catering</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem, culpa suscipit error Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et qui, repudiandae similique nam, recusandae quidem ab asperiores ex, aut fugit labore veritatis facere? sint delectus ab dolorum nam. Debitis facere, incidunt voluptates eos, mollitia voluptatem iste sunt voluptas beatae facilis labore, omnis sint quae eum.</p>
+           </div>
+        </div>
+        <div class="box2">
+            <h2>Bulk Ordering</h2>
+            <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem, culpa suscipit error Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde laudantium a incidunt animi ad, ab dignissimos vero? Unde numquam odit repudiandae perferendis nisi. sint delectus ab dolorum nam. Debitis facere, incidunt voluptates eos, mollitia voluptatem iste sunt voluptas beatae facilis labore, omnis sint quae eum.</span>
+        </div>
+        <div class="box3">
+            <div>
+                <br><br>
+                <img src="./img/order.webp" alt="" width="100%">
+            </div>
+            <div>
+                <h2>Food Ordering</h2>
+                <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem, culpa suscipit error Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus provident fugiat aliquam minima at explicabo. Earum eveniet quaerat, sunt molestias nesciunt quas! Quis. sint delectus ab dolorum nam. Debitis facere, incidunt voluptates eos, mollitia voluptatem iste sunt voluptas beatae facilis labore, omnis sint quae eum.</span>
+            </div>
+        </div>
+        </div>
+        <div><br><br><br>
+            <h1>Our clients</h1>
+            <div class="mhsp">
+            <img class="images" src="./img/Mc donald's.png" alt="" width="80rem" height="130rem">
+            <img class="images" src="./img/Honest.png" alt="">
+            <img class="images" src="./img/subway.png" alt="">
+            <img class="images" src="./img/pizzapoint.png" alt="">
+            </div>
+        </div>
+        <div class="data">
+            <h1>Contact Us</h1>
+            <h3><pre>Name:</pre></h3> 
+            <input type="text" id="name" placeholder="Enter your name" ><br>
+            <h3><pre>Email:</pre></h3> 
+            <input type="email" id="email" placeholder="Enter your email"><br>
+            <h3><pre>    Phone Number:</pre></h3> 
+            <input type="number" id="number" placeholder="Enter your phine" ><br>
+            <h3><pre>Message:</pre></h3>
+            <textarea name="message" id="msg" ></textarea>
+        </div>
+        
+    </main>
+    <footer>
+        <div class="footer">
+            <p>Copyright © www.myOnlineMeal.com. All rights reserved!</p>
+        </div>
+    </footer>
+</body>
+</html>
